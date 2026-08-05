@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    gap: 30px;
+    gap: 20px;
     padding: 0 15%;
 }
 
@@ -53,13 +53,13 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    gap: 25px;
+    gap: 20px;
     padding: 10px;
 
-    border-style: solid;
+    /* border-style: solid;
     border-width: 3px;
     border-color: var(--lightblue);
-    border-radius: 15px;
+    border-radius: 15px; */
 }
 
 .about-skills-logo {
