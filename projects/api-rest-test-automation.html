@@ -3,54 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web UI Test Automation - Julien Martinez</title>
-  <meta name="description" content="This project has been made to learn Robot Framework test automation using SauceDemo and Continuous Integration on Git.">
+  <title>API REST Test Automation - Julien Martinez</title>
+  <meta name="description" content="This project has been made to learn test automation using a REST API. It includes Continuous Integration on Git.">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
     <main>
         <section class="project-main">
-            <img src="../assets/img/covers/WebUI.webp" alt="Web UI Test Automation">
+            <img src="../assets/img/covers/API-REST.webp" alt="API REST Test Automation">
             <div class="project-main-text">
-                <h1>Web UI Test Automation</h1>
+                <h1>API REST Test Automation</h1>
                     <ul class="project-general-info">
                         <li>Tools: Robot Framework & GitHub Actions</li>
                         <li>Languages: Python</li>
-                        <li>Website used: <a href="https://www.saucedemo.com/" target="_blank" >Sauce Demo</a></li>
-                        <li><a href="https://github.com/Miiyukou/Robotframework-Saucedemo" target="_blank">GitHub Repository</a></li>
+                        <li>API used: Restful Booker</li>
+                        <li><a href="https://github.com/Miiyukou/Robotframework-api-rest" target="_blank">GitHub Repository</a></li>
                     </ul>
             </div>
         </section>
 
         <section>
             <div class="description">
-                <p>The goal of this project was to learn test automation using Robot Framework and Continuous Integration with GitHub Actions.</p>
+                <p>The goal of this small project was to learn test automation using a REST API and Robot Framework.</p>
             </div>
         </section>
 
         <section class="summary">
             <h2>Contents</h2>
                 <ul>
-                    <li><a href="web-test-automation.html#tests">UI Tests</a></li>
-                    <li><a href="web-test-automation.html#ci">Continuous Integration</a></li>
-                    <li><a href="web-test-automation.html#skills">Skills worked on</a></li>
+                    <li><a href="api-rest-test-automation.html#tests">Testing CRUD operations</a></li>
+                    <li><a href="api-rest-test-automation.html#ci">Continuous Integration</a></li>
+                    <li><a href="api-rest-test-automation.html#skills">Skills worked on</a></li>
                 </ul>
         </section>
 
         <section class="project-tasks">
-            <h2 id="tests">UI Tests</h2>
+            <h2 id="tests">Testing CRUD operations</h2>
             <div class="task-item">
                 <div class="task-text">
                     <ul>
-                        <li>For this project, I created UI tests to validate the functionality of the Sauce Demo website. These tests cover user authentication, shopping cart and checkout processes.</li>
-                        <li>As SauceDemo has users with specific behaviors, I implemented different test scenarios to test various use cases.</li>
-                        <li>To organize the tests, I used variables and reusable keywords in dedicated files.</li>
+                        <li>As Restful Booker has a booking management system, the tests focus on creating, reading, updating, and deleting bookings. All data is returned to be validated and the HTTP status codes are checked.</li>
+                        <li>I also implemented an authentication test and keywords to facilitate the testing process.</li>
                     </ul>
                 </div>
                 <div class="task-images">
-                    <img class="project-image" src="../assets/img/screenshots/rf-ui_tests.webp" alt="UI Tests"></img>
-                    <img class="project-image" src="../assets/img/screenshots/rf-ui_browser.webp" alt="Browser"></img>
+                    <img class="project-image" src="../assets/img/screenshots/api-rest_get.webp" alt="API REST Get Request"></img>
+                    <img class="project-image" src="../assets/img/screenshots/api-rest_keyword.webp" alt="Keywords"></img>
                 </div>
             </div>
 
@@ -63,7 +62,7 @@
                     </ul>
                 </div>
                 <div class="task-images">
-                    <img class="project-image" src="../assets/img/screenshots/rf-ui_ci.webp" alt="Continuous Integration Pipeline"></img>
+                    <img class="project-image" src="../assets/img/screenshots/api-rest_ci.webp" alt="Continuous Integration Pipeline"></img>
                 </div>
         </section>
 
@@ -76,9 +75,9 @@
                             <img src="../assets/img/logos/robotframework.png" alt="Robot Framework">
                             <p>Robot Framework</p>
                             <ul>
-                                <li>> Web UI Testing</li>
-                                <li>> Keywords & Variables</li>
-                                <li>> Browser library</li>
+                                <li>> API REST Testing</li>
+                                <li>> Keywords</li>
+                                <li>> Requests library</li>
                             </ul>
                         </div>
                         <div class="skill">
